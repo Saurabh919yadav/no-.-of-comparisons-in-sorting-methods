@@ -49,7 +49,7 @@ for (case in (1:20)*10) {
   for (times in 1:20) {
     sample(a)
     some_function<-make.some_function()
-    x1<-mmergesort(a)
+    x1<-quicksort(a)
     print(x1)
     
     no_compare[(case)/10]<-no_compare[(case)/10]+some_function()-1
